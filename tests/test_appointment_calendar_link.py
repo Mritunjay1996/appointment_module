@@ -73,7 +73,7 @@ def test_homepage(browser):
     assert appointment.verifysideBar5() == "E-mail-en SMS-sjablonen", "Side menu bar does not have 'E-mail-en " \
                                                                       "SMS-sjablonen'. E-mail-en SMS-sjablonen should " \
                                                                       "be in side menu bar. "
-    time.sleep(1)
+    time.sleep(2)
 
 
 @allure.title('TS_02: To verify UI elements for  Appointment types ')
