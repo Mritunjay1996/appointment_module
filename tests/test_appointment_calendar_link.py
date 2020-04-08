@@ -115,7 +115,7 @@ def test_verifyui_appointmentype(browser):
 @allure.title('TS_03: To verify UI elements present on  Add appointment type page')
 def test_addappoinment_ui(browser):
     ui = addAppointmentypeObj(browser)
-    time.sleep(7)
+    time.sleep(8)
     browser.refresh()
     time.sleep(5)
     ui.clickAddAppointmentype()
