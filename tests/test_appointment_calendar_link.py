@@ -47,7 +47,7 @@ def test_homepage(browser):
                                                               "dropdown list "
     assert home_page.verifyAppointment_emailSms() == True, "Email & SMS Template is not showing, Email & SMS Template " \
                                                            "should be present in appointment dropdown list. "
-    time.sleep(2)
+    time.sleep(3)
     home_page.clickAppointmenttab()
     time.sleep(5)
     assert appointment.verifyDaybutton() == "Dag", "Day Button in aethon appointment scheduler is displaying . Day " \
